@@ -1,1 +1,38 @@
+ Milestone 1: Progress & Status Report
+**Project Title:** CatCare-IoT-Feeding-Machine-in-Campus  
+**Course:** CSF3143 Basics of Software Engineering  
+**Target Submission Date:** 5 November 2026  
 
+---
+
+ 1. Overview of Milestone 1 Deliverables
+Milestone 1 focuses on establishing the project foundation, defining clear operational problems at UMT, structuring team roles, gathering legitimate stakeholder requirements, and outlining the system requirements[cite: 3, 5].
+
+---
+
+ 2. Repository Documentation Structure
+The following components have been developed and tracked within this repository:
+
+* **`docs/Milestone-1/`**
+  * `Project_Background.docx` — Covers problem statements, UMT campus justifications, system overview, and team roles.
+  * `System_Requirements.docx` — Details functional requirements and non-functional requirements in table format.
+* **`evidence/`**
+  * Contains requirements elicitation records (stakeholder interview notes, observation details, and Google Meet session screenshots).
+* **`meeting-minutes/`**
+  * Logs of internal team sprint planning meetings and stakeholder discussions.
+
+
+ 3. Team Roles & Module Distribution
+* **Member 1(Iman): (Project Leader): IoT Hardware Integration & Sensor Calibration
+* **Member 2(Rizki): Database Design & Backend Architecture
+* **Member 3(Rizki: Schedule Management & Notification Module
+* **Member 4(Rizki): User Management & UI/UX Prototyping
+
+---
+
+# 4. Current Progress Checklist
+- [x] Project group formation & GitHub repository setup
+- [x] Problem statement identification based on UMT campus ecosystem
+- [x] Stakeholder engagement & requirements elicitation
+- [x] Drafting Functional & Non-Functional Requirements
+- [ ] Final review of Milestone 1 report before submission (Due: 5 Nov 2026)[cite: 10]
