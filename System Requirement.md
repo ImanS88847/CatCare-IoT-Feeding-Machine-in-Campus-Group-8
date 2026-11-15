@@ -5,7 +5,7 @@ To ensure the conceptual design of CatCare IoT Feeding Machine on Campus effecti
 
 
 
-Identified Stakeholder
+**Identified Stakeholder**
 
 i.	Campus Administration/Maintenance Team (UMT)  
  Responsible for system configuration, overall machine health monitoring, user account management, and maintaining campus facility hygiene standards.
@@ -17,18 +17,7 @@ ii.	 Student Volunteers/Animal Care Club
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-Requirement Gathering
+**Requirement Gathering**
 
 i.	Semi-Structured Interviewing
    Conducted with student volunteers and campus facility representatives to highlight challenges associated with manual feeding, food wastage, and monitoring.
@@ -53,7 +42,7 @@ iii.	 Field Study of Campus
 
 
 
-	2.2 Functional Requirements
+	**2.2 Functional Requirements**
 Functional requirements specify the vital processes and functionalities the CatCare IoT Feeding Machine web management system and the hypothetical IoT-based hardware system must exhibit when taking in inputs, processing them, and producing outputs.
 
 | Feature | Description |
@@ -66,3 +55,30 @@ Functional requirements specify the vital processes and functionalities the CatC
 | IoT Sensor Monitoring & Live Dashboard | Display real-time dry food and water container levels on the web dashboard. |
 | IoT Sensor Monitoring & Live Dashboard | Monitor and display the online/offline operational status of each feeding station. |
 | Alert & Notification | The system shall trigger a low-level visual alert whenever food or water capacity falls below 15%. |
+
+
+
+	**2.3 Non Functional Requirement**
+
+	| CATEGORY | DESCRIPTION |
+|---|---|
+| Performance (Product Requirement) | The web portal shall reflect updated sensor data (food and water levels) transmitted from the ESP32/ESP8266 microcontroller within 3 seconds. |
+| Usability (Product Requirement) | The web dashboard shall feature an intuitive, responsive UI that adapts seamlessly across desktop computers, tablets, and mobile phones for student volunteers. |
+| Security (Product Requirement) | All user passwords shall be securely hashed prior to storage in the MySQL database, and restricted administrative endpoints shall block unauthorized access. |
+| Dependability (Product Requirement) | In the event of temporary UMT campus Wi-Fi interruption, the microcontroller design shall retain active feeding schedules in local memory and sync missed logs once reconnected. |
+| Operational Requirement (Organizational Requirements) | The MySQL relational database schema and backend APIs shall support adding multiple feeding stations across different UMT campus zones without requiring core system redesign. |
+
+
+	**2.4 Requirements Checking & Validation**
+To ensure the quality, integrity, and completeness of the gathered system requirements, the team conducted a systematic Requirements Checking review based on core validation criteria outlined in software engineering standards.
+
+•	Validity
+The system ensures valid functionality by directly supporting the real operational needs of UMT stakeholders, addressing core issues such as manual feeding inconsistencies, hygiene problems, and lack of real-time monitoring.   
+•	Consistency
+All system requirements have been checked for consistency in order to avoid any contradictions, which is why all access rights of users (Campus Admin vs. Student Volunteers) and operation process (automated/manual) have been considered during the process.
+•	Completeness
+Requirements fully describe the operational process of CatCare in terms of user authentication, scheduling, remote manual override, real-time data collection from IoT sensors and low-level alerts.
+•	Realism
+System requirements are realistic and feasible using standard IoT microcontrollers (ESP32/ESP8266) and web technology development (MySQL/Web Portal).
+•	Verifiability
+All requirements can be tested and described, non-functional requirements include measurable metrics (e.g., 15% low-level alert threshold).
