@@ -60,13 +60,13 @@ Functional requirements specify the vital processes and functionalities the CatC
 
 	**2.3 Non Functional Requirement**
 
-	| CATEGORY | DESCRIPTION |
-|---|---|
-| Performance (Product Requirement) | The web portal shall reflect updated sensor data (food and water levels) transmitted from the ESP32/ESP8266 microcontroller within 3 seconds. |
-| Usability (Product Requirement) | The web dashboard shall feature an intuitive, responsive UI that adapts seamlessly across desktop computers, tablets, and mobile phones for student volunteers. |
-| Security (Product Requirement) | All user passwords shall be securely hashed prior to storage in the MySQL database, and restricted administrative endpoints shall block unauthorized access. |
-| Dependability (Product Requirement) | In the event of temporary UMT campus Wi-Fi interruption, the microcontroller design shall retain active feeding schedules in local memory and sync missed logs once reconnected. |
-| Operational Requirement (Organizational Requirements) | The MySQL relational database schema and backend APIs shall support adding multiple feeding stations across different UMT campus zones without requiring core system redesign. |
+| CATEGORY | DESCRIPTION |
+| :--- | :--- |
+| **Performance** (Product Requirement) | The web portal shall reflect updated sensor data (food and water levels) transmitted from the ESP32/ESP8266 microcontroller within 3 seconds. |
+| **Usability** (Product Requirement) | The web dashboard shall feature an intuitive, responsive UI that adapts seamlessly across desktop computers, tablets, and mobile phones for student volunteers. |
+| **Security** (Product Requirement) | All user passwords shall be securely hashed before storage in the MySQL database, and restricted administrative endpoints shall block unauthorized access. |
+| **Dependability** (Product Requirement) | In the event of temporary UMT campus Wi-Fi interruption, the microcontroller design shall retain active feeding schedules in local memory and sync missed logs once reconnected. |
+| **Operational Requirement** (Organizational Requirements) | The MySQL relational database schema and backend APIs shall support adding multiple feeding stations across different UMT campus zones without requiring core system redesign. |
 
 
 	**2.4 Requirements Checking & Validation**
