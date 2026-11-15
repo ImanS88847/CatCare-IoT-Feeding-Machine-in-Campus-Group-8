@@ -55,6 +55,16 @@ iii.	 Field Study of Campus
 
 	2.2 Functional Requirements
 Functional requirements specify the vital processes and functionalities the CatCare IoT Feeding Machine web management system and the hypothetical IoT-based hardware system must exhibit when taking in inputs, processing them, and producing outputs.
+User Authentication & Role-Based Access Control	The system allows registered Campus Administrators and Student Volunteers to log in to their accounts using their username and password.
+	The system divides users into two roles which is Admins can manage accounts and machine maintenance, while Volunteers can handle schedules, manual feeding, and system monitoring.
+Automated Feeding Schedule Management	Users can set the amount of dry cat food for each scheduled feeding time.
+	Users can  create, view, update, and delete automatic feeding schedules
+
+ Manual Remote Dispense Control	The manual control button for feeding should be provided in the system, through which volunteers can immediately feed the animals during off-hours
+
+ IoT Sensor Monitoring & Live Dashboard	Display real time dry food and water container levels on the web dashboard.
+	Monitor and display the online/offline operational status of each feeding station.
+Alert & Notification	The system shall trigger a low-level visual alert whenever food or water capacity falls below 15%.
 
 
 
