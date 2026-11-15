@@ -73,12 +73,21 @@ Functional requirements specify the vital processes and functionalities the CatC
 To ensure the quality, integrity, and completeness of the gathered system requirements, the team conducted a systematic Requirements Checking review based on core validation criteria outlined in software engineering standards.
 
 •	Validity
+
 The system ensures valid functionality by directly supporting the real operational needs of UMT stakeholders, addressing core issues such as manual feeding inconsistencies, hygiene problems, and lack of real-time monitoring.   
+
 •	Consistency
+
 All system requirements have been checked for consistency in order to avoid any contradictions, which is why all access rights of users (Campus Admin vs. Student Volunteers) and operation process (automated/manual) have been considered during the process.
+
 •	Completeness
+
 Requirements fully describe the operational process of CatCare in terms of user authentication, scheduling, remote manual override, real-time data collection from IoT sensors and low-level alerts.
+
 •	Realism
+
 System requirements are realistic and feasible using standard IoT microcontrollers (ESP32/ESP8266) and web technology development (MySQL/Web Portal).
+
 •	Verifiability
+
 All requirements can be tested and described, non-functional requirements include measurable metrics (e.g., 15% low-level alert threshold).
